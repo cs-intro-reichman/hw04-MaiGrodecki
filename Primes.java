@@ -24,7 +24,7 @@ public class Primes {
             int index = j;
             while(index < isPrime.length){
                 index+=j;
-                if(index > isPrime.length){
+                if(index >= isPrime.length){
                     break;
                 }
                 isPrime[index] = false;

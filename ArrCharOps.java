@@ -167,6 +167,7 @@ public class ArrCharOps {
         int shortStrLength = Math.min(str1.length(), str2.length());
         if (str2.length() == 0){
             return 2;  //error in tester -> expectes a value of not -1,0,1 when empty string, unlike instractions
+        }    
         for (int i = 0; i < shortStrLength; i++){
             if (str1.charAt(i)!= str2.charAt(i)){
                 if (str1.charAt(i) < str2.charAt(i)){
@@ -184,4 +185,4 @@ public class ArrCharOps {
                 return -1;
             }
             }
-}
+    }
